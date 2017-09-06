@@ -1,0 +1,4 @@
+language: go
+script: make test build
+notifications:
+  email: false

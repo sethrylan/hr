@@ -1,0 +1,10 @@
+box: golang
+build:
+  steps:
+    - setup-go-workspace
+
+    # Test the project
+    - script:
+        name: make build test
+        code: |
+          make test
