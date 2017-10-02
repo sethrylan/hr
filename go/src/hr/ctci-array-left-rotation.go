@@ -9,7 +9,7 @@ import (
 // RunArrayRotation ...
 func RunArrayRotation() {
 	//Enter your code here. Read input from STDIN. Print output to STDOUT
-	ints, _ := Read(bufio.ScanWords)
+	ints, _ := ReadInts(bufio.ScanWords)
 	result := rotate(ints[2:], ints[1])
 	fmt.Println(strings.Trim(fmt.Sprint(result), "[]"))
 }

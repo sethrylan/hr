@@ -3,5 +3,7 @@ package main
 import "hr"
 
 func main() {
-	hr.RunArrayRotation()
+	// hr.MainAnagram()
+	hr.MainAnagram()
+
 }

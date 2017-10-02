@@ -5,9 +5,9 @@ import (
 	"fmt"
 )
 
-func main() {
+func mainUtopianTree() {
 	//Enter your code here. Read input from STDIN. Print output to STDOUT
-	ints, _ := Read(bufio.ScanWords)
+	ints, _ := ReadInts(bufio.ScanWords)
 	for _, n := range ints[1:] {
 		fmt.Println(eutopianGrowth(n))
 	}
